@@ -198,7 +198,7 @@ struct Friend1 {
     }
     
     
-    func getFriends4(completion: @escaping([FriendDataBase])->()) {
+    func getFriends4(completion: @escaping([FriendsDataBase])->()) {
         
         let method = "/friends.get"
         

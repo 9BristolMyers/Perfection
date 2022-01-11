@@ -15,7 +15,17 @@ class FriendModel: Object, Codable {
     @objc dynamic var trackCode, firstName: String
     @objc dynamic var photo100: String
     
+    init (id: Int) {
+    
+        self.id = 0
+        self.lastName = ""
+        self.trackCode = ""
+        self.firstName = ""
+        self.photo100 = ""
+    }
+    
     var fullName: String {
+        
         firstName + lastName
     }
     
