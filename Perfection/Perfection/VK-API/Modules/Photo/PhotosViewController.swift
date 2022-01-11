@@ -11,7 +11,7 @@ import RealmSwift
 class PhotosViewController: Object, UITableViewController {
     
     @objc dynamic var photos = PhotosAPI()
-    @objc dynamic var photosDataBase = PhotoDataBase()
+    @objc dynamic var photosDataBase = PhotosDataBase()
     @objc dynamic var friends: Results<PhotoModel>?
     @objc dynamic var token: NotificationToken?
 

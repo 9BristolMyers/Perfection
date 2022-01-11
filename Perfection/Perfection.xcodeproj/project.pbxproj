@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1258220F278A451800F066AC /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258220E278A451800F066AC /* NewsTableViewController.swift */; };
 		127A4C9E274CD64500F57B70 /* PhotosDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A4C9D274CD64500F57B70 /* PhotosDataBase.swift */; };
+		12A92D3C274F8081001526F3 /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A92D3B274F8081001526F3 /* ThreadViewController.swift */; };
 		12C8E15B274B4B9700AB65DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8E15A274B4B9700AB65DD /* AppDelegate.swift */; };
 		12C8E15D274B4B9700AB65DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8E15C274B4B9700AB65DD /* SceneDelegate.swift */; };
 		12C8E162274B4B9700AB65DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C8E160274B4B9700AB65DD /* Main.storyboard */; };
@@ -76,7 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1258220E278A451800F066AC /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		127A4C9D274CD64500F57B70 /* PhotosDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDataBase.swift; sourceTree = "<group>"; };
+		12A92D3B274F8081001526F3 /* ThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewController.swift; sourceTree = "<group>"; };
 		12C8E157274B4B9700AB65DD /* Perfection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perfection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C8E15A274B4B9700AB65DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12C8E15C274B4B9700AB65DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +162,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127870432789B29200F4B517 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1258220E278A451800F066AC /* NewsTableViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		12A92D39274F7FE5001526F3 /* Client-server course */ = {
+			isa = PBXGroup;
+			children = (
+				12C8E18D274B4BCA00AB65DD /* Lesson1 */,
+				12C8E18E274B4BD200AB65DD /* Lesson2 */,
+				12C8E18F274B4BE100AB65DD /* Lesson4 */,
+				12C8E190274B4BE900AB65DD /* Lesson6 */,
+				12C8E191274B4BF100AB65DD /* Lesson8 */,
+			);
+			path = "Client-server course";
+			sourceTree = "<group>";
+		};
+		12A92D3A274F801E001526F3 /* Performance cource */ = {
+			isa = PBXGroup;
+			children = (
+				12A92D3D274F8089001526F3 /* Lesson1 */,
+			);
+			path = "Performance cource";
+			sourceTree = "<group>";
+		};
+		12A92D3D274F8089001526F3 /* Lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				12A92D3B274F8081001526F3 /* ThreadViewController.swift */,
+			);
+			path = Lesson1;
+			sourceTree = "<group>";
+		};
 		12C8E14E274B4B9700AB65DD = {
 			isa = PBXGroup;
 			children = (
@@ -182,14 +222,11 @@
 			isa = PBXGroup;
 			children = (
 				12C8E1F4274B5D0B00AB65DD /* App */,
+				12A92D3A274F801E001526F3 /* Performance cource */,
 				12C8E1F3274B5CBE00AB65DD /* Resources */,
 				12C8E193274B4C0600AB65DD /* VK-API */,
 				12C8E192274B4BFC00AB65DD /* Services */,
-				12C8E191274B4BF100AB65DD /* Lesson8 */,
-				12C8E190274B4BE900AB65DD /* Lesson6 */,
-				12C8E18F274B4BE100AB65DD /* Lesson4 */,
-				12C8E18E274B4BD200AB65DD /* Lesson2 */,
-				12C8E18D274B4BCA00AB65DD /* Lesson1 */,
+				12A92D39274F7FE5001526F3 /* Client-server course */,
 			);
 			path = Perfection;
 			sourceTree = "<group>";
@@ -316,6 +353,7 @@
 		12C8E1C7274B51BB00AB65DD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				127870432789B29200F4B517 /* News */,
 				12C8E1D9274B535300AB65DD /* Photo */,
 				12C8E1D6274B52C100AB65DD /* Groups */,
 				12C8E1CB274B51FD00AB65DD /* Friends */,
@@ -593,6 +631,7 @@
 				12C8E1F0274B5AA100AB65DD /* LoginViewCntroller.swift in Sources */,
 				12C8E1A4274B4D4B00AB65DD /* NetworkingViewController.swift in Sources */,
 				12C8E1C6274B51A800AB65DD /* UIImageView+Load.swift in Sources */,
+				1258220F278A451800F066AC /* NewsTableViewController.swift in Sources */,
 				12C8E15B274B4B9700AB65DD /* AppDelegate.swift in Sources */,
 				12C8E1DB274B536300AB65DD /* PhotosViewController.swift in Sources */,
 				12C8E198274B4C6200AB65DD /* ChooseFruitViewController.swift in Sources */,
@@ -610,6 +649,7 @@
 				12C8E1BF274B50D500AB65DD /* RealmViewController.swift in Sources */,
 				127A4C9E274CD64500F57B70 /* PhotosDataBase.swift in Sources */,
 				12C8E1E3274B56FE00AB65DD /* PhotosAPI.swift in Sources */,
+				12A92D3C274F8081001526F3 /* ThreadViewController.swift in Sources */,
 				12C8E15D274B4B9700AB65DD /* SceneDelegate.swift in Sources */,
 				12C8E1FE274B81CB00AB65DD /* PhotosCollectionController.swift in Sources */,
 				12C8E1CE274B521A00AB65DD /* FriendsViewController.swift in Sources */,
